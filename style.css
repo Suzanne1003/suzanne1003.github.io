@@ -1,0 +1,389 @@
+/*Font*/
+@font-face {
+    font-family: "dorsa";
+    src: url(./Dorsa-Regular.ttf);
+}
+@font-face {
+    font-family: "montserrat";
+    src: url(./Montserrat-Regular.ttf);
+}
+body{
+    background-color: #8B4C1C;
+}
+h1, h3{
+    font-family: "dorsa";
+}
+.navbar{
+    font-family: 'montserrat';
+}
+h1{
+    position: absolute;
+    font-size: 280px;
+    letter-spacing: 65px;
+    margin-top: 15%;
+    margin-left: 5%;
+    color: white;
+}
+
+h3{
+    letter-spacing: 12px;
+}
+.contenant{
+    position: relative;
+}
+.mannequin{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -4%;
+    width: auto;
+    height: 4000%;
+}
+.navbar{
+    position: absolute;
+    margin-top: 46%;
+    margin-left: 33%;
+    color: white;
+    font-size: 24px;
+}
+.portfolio{
+    margin-left: 45%;
+    text-transform: uppercase;
+    color: white;
+}
+.content{
+    position: relative;
+    margin-top: 60%;
+    width: 100%;
+    height: 100%;
+    
+}
+.a-propos{
+    position: absolute;
+    background-color: #A56A2A;
+    width: 50%;
+    height: 800px;
+}
+#a-propos{
+    margin-top: 50%;
+    text-align: center;
+    font-family: 'dorsa';
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+#projets{
+    margin-top: 50%;
+    text-align: center;
+    font-family: 'dorsa';
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+#contact{
+    margin-top:50%;
+    padding-top: 50%;
+    color: #F2EADF;
+    text-align: center;
+    font-family: 'dorsa';
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+.text{
+    position: absolute;
+    margin-left: 50%;
+    width: 50%;
+    height: 800px;
+    background-color: #F2EADF;
+}
+#sous-titre1{
+    font-family: 'dorsa';
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+    letter-spacing: 20px;   
+}
+#competences{
+    font-family: 'dorsa';
+    font-size: 30px;
+    margin-left: 80px;
+    letter-spacing: 5px;  
+    padding-top: 8px; 
+}
+#sous-titre2{
+    font-family: 'dorsa';
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+    letter-spacing: 20px;   
+}
+#formation{
+    font-family: 'dorsa';
+    font-size: 30px;
+    margin-left: 80px;
+    letter-spacing: 5px;   
+}
+#sous-titre3{
+    font-family: 'dorsa';
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+    letter-spacing: 20px;   
+}
+#experiences{
+    font-family: 'dorsa';
+    font-size: 30px;
+    margin-left: 80px;
+    letter-spacing: 5px;   
+}
+.content2{
+    position: relative;
+    margin-top: 115%;
+}
+.projets{
+    position: absolute;
+    margin-top: 0%;
+}
+
+.image{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    margin-top: 0%;  
+    overflow: scroll;
+}
+#cerveau{
+    position: relative;
+    width: 50%;
+    height: 680px;
+    margin-left: 50%;
+    overflow: hidden;
+    
+}
+#planete{
+    position: relative;
+    width: 52%;
+    height: 680px;
+    margin-left: 49%;
+    margin-top: -2%;
+    overflow: hidden;
+}
+.projets{
+    background-color: #F2EADF;
+    margin-top: 0%;
+    width: 50%;
+    height: 800px;
+}
+#carre {
+    position: relative;
+    margin-top: -2%;
+    margin-left: 50%;
+    width: 50%;
+    height: 680px;
+    background: black;
+    overflow: scroll;
+}
+.content3{
+    position: relative;
+    margin-top: 172%;
+}
+#carre1{
+    position: relative;
+    margin-top: -57%;
+    margin-left: 50%;
+    width: 50%;
+    height: 800px;
+    background: #F2EADF;
+}
+.contact{
+    background-color: #8B4C1C;
+    width: 50%;
+    height: 800px;
+}
+/*Hegagonne bouton*/
+.hexagone {
+    position: absolute;
+    /* Pour rendre responsive mettre width à 100% */;
+    opacity: 0.75;
+    width: 80px;
+    margin-left: 73%;
+    margin-top: 0%;
+    visibility: hidden;
+    overflow: hidden;
+    background-color: purple;
+  }
+  .hexagone:after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    content: "";
+    display: block;
+    margin-top: 28.86751%;
+    padding-bottom: 86.602%;
+  }
+  .hexagone .hexagonemain{
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 115.47005%;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    -ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    z-index: 1;
+  }
+  .hexagone .hexagonemain:before{
+    content: "";
+    display: block;
+    position: absolute;
+    visibility: visible;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #8B4C1C;
+    -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+    -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+    transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+  }
+  .hexagone .hexagonecontent{
+    overflow-y: auto;
+    width: 100%;
+    display: block;
+    position: absolute;
+    visibility: visible;
+    bottom: 25%;
+    top: 0%;
+    left: 0;
+    z-index: 3;
+  }
+/*Animation pop-up*/
+.btnPopup{
+    position: absolute;
+    background-color: #8B4C1C;
+    border-color: #8B4C1C;
+    box-shadow: none;
+    border: none;
+    margin-top: -25%;
+    margin-left: 75%;
+    font-size: 30pt;
+    color: purple;
+    cursor: pointer;
+}
+.btnPopup:hover{
+    background-color: none;
+}
+.overlay{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.popup{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 700px;
+    background-color: #8B4C1C;
+    padding: 1em;
+    overflow: scroll;
+}
+.btnClose{
+   margin-left: 1100px;
+   font-size: 40px;
+    cursor: pointer;
+    float: right;
+    position: fixed;
+
+}
+#society{
+    font-family: 'dorsa';
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #F2EADF;
+    text-align: center;
+    text-transform: uppercase;
+}
+#wireframe-titre{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'dorsa';
+    color: white;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+#wireframe{
+    position: absolute;
+    margin-top: 15%;
+    width: 80%;
+    height: 20%;
+    height: auto;
+    text-align: center;
+    margin-left: 8%;
+    padding-left: 0;
+}
+#definition{
+    margin-top: 0%;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'montserrat';
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid white;
+    font-weight: lighter;
+    text-align: center;
+    padding: 1em;
+}
+#presentation{
+    position: absolute;
+    width: 50%;
+    margin-top: 60%;
+}
+#couleur{
+    width: 30%;
+    margin-top: 80%;
+    margin-left: 55%;
+}
+#dorsa{
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-family: 'dorsa';
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 55%;
+}
+#montserrat{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'montserrat';
+    width: 100%;
+    margin-top: 7%;
+    margin-left: 55%;
+}
+#explication{
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'montserrat';
+    font-size: 10px;
+    text-align: justify;
+}
